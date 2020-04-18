@@ -8,18 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:theme="@style/AppThemeMaterial">
-        <activity android:name=".Verification">
+        <activity android:name=".DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResetPassword">
+        <activity android:name=".Verification">
 
         </activity>
-        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".ResetPassword"></activity>
+        <activity android:name=".ForgotPassword" />
         <activity android:name=".Register" />
         <activity
             android:name=".Login"

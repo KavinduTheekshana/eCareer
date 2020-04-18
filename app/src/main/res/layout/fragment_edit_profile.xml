@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/raleway_semibold"
+                android:paddingLeft="20dp"
+                android:text="Edit Profile"
+                android:textSize="25dp">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:layout_marginBottom="60dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="2dp"
+                app:cardElevation="2dp"
+                app:cardMaxElevation="2dp"
+                app:strokeColor="#fff"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/profile_details_edit_user_name_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="1dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/defaultprofile"></ImageView>
+
+            </com.google.android.material.card.MaterialCardView>
+        </FrameLayout>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/profile_details_change_pro_pic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="35dp"
+            android:elevation="2dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tint="@color/white"
+                android:src="@drawable/ic_camera"
+                android:padding="8dp"></ImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:hint="Email"
+        app:startIconDrawable="@drawable/ic_envelope">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:enabled="false"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:hint="NIC"
+        app:startIconDrawable="@drawable/ic_name_strock">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:hint="Phone"
+        app:startIconDrawable="@drawable/ic_call">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:hint="University"
+        app:startIconDrawable="@drawable/ic_school">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Student Number"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        app:startIconDrawable="@drawable/ic_face_detection">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Update Profile"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/edit_profile_update_password"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="Update Password"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"/>
+
+
+</LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

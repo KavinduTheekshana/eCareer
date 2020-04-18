@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dashboard"
+        android:icon="@drawable/ic_speedometer"
+        android:title="Dashboard" />
+    <item android:id="@+id/add"
+        android:icon="@drawable/ic_plus"
+        android:title="Add Qualification" />
+    <item android:id="@+id/accountnew"
+        android:icon="@drawable/ic_speedometer"
+        android:title="Accountnew" />
+    <item android:id="@+id/account"
+        android:icon="@drawable/ic_user"
+        android:title="Account" />
+
+
+</menu>

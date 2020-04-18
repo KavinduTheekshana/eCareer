@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:hint="NIC"
-            app:startIconDrawable="@drawable/ic_name">
+            app:startIconDrawable="@drawable/ic_name_strock">
 
             <com.google.android.material.textfield.TextInputEditText
 
@@ -84,6 +84,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Student Number"
+            app:startIconDrawable="@drawable/ic_face_detection">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
