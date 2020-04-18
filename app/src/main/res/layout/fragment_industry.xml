@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:hint="NIC"
-            app:startIconDrawable="@drawable/ic_name">
+            app:startIconDrawable="@drawable/ic_name_strock">
 
             <com.google.android.material.textfield.TextInputEditText
 

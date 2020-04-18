@@ -11,24 +11,30 @@
         android:largeHeap="true"
         android:theme="@style/AppThemeMaterial">
         <activity android:name=".DashboardActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Verification">
 
         </activity>
         <activity android:name=".ResetPassword"></activity>
         <activity android:name=".ForgotPassword" />
-        <activity android:name=".Register" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Login"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+
+        </activity>
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/FullscreenTheme" />
+            android:theme="@style/FullscreenTheme" >
+
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
