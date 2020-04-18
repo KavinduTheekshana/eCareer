@@ -7,9 +7,9 @@
     <item android:id="@+id/add"
         android:icon="@drawable/ic_plus"
         android:title="Add Qualification" />
-    <item android:id="@+id/accountnew"
-        android:icon="@drawable/ic_speedometer"
-        android:title="Accountnew" />
+    <item android:id="@+id/edit"
+        android:icon="@drawable/ic_system_update"
+        android:title="Edit" />
     <item android:id="@+id/account"
         android:icon="@drawable/ic_user"
         android:title="Account" />
