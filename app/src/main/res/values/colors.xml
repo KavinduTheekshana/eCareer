@@ -5,6 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="white">#fff</color>
     <color name="gray">#757576</color>
+    <color name="alert">#FC3419</color>
 
     <color name="black_overlay">#66000000</color>
 </resources>

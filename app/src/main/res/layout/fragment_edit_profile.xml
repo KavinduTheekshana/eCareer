@@ -23,7 +23,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/raleway_semibold"
                 android:paddingLeft="20dp"
-                android:text="Edit Profile"
+                android:text="@string/edit_title"
                 android:textSize="25dp">
 
             </TextView>
@@ -71,7 +71,7 @@
                 app:cardCornerRadius="50dp">
 
                 <ImageView
-                    android:id="@+id/profile_details_edit_user_name_image"
+                    android:id="@+id/edit_profile_user_img"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:elevation="1dp"
@@ -96,6 +96,7 @@
             app:cardCornerRadius="18dp">
 
             <ImageView
+                android:id="@+id/edit_profile_user_add_img"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:tint="@color/white"
@@ -123,11 +124,11 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"
-        android:hint="Email"
+        android:hint="@string/industry_email"
         app:startIconDrawable="@drawable/ic_envelope">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/username"
+            android:id="@+id/edit_profile_et_email"
             android:layout_width="match_parent"
             android:inputType="textEmailAddress"
             android:enabled="false"
@@ -144,11 +145,11 @@
         android:layout_marginBottom="12dp"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"
-        android:hint="NIC"
+        android:hint="@string/industry_nic"
         app:startIconDrawable="@drawable/ic_name_strock">
 
         <com.google.android.material.textfield.TextInputEditText
-
+            android:id="@+id/edit_profile_et_nic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"/>
@@ -163,11 +164,11 @@
         android:layout_marginBottom="12dp"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"
-        android:hint="Phone"
+        android:hint="@string/industry_phone"
         app:startIconDrawable="@drawable/ic_call">
 
         <com.google.android.material.textfield.TextInputEditText
-
+            android:id="@+id/edit_profile_et_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"/>
@@ -182,11 +183,11 @@
         android:layout_marginBottom="12dp"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"
-        android:hint="University"
+        android:hint="@string/student_univercity"
         app:startIconDrawable="@drawable/ic_school">
 
         <com.google.android.material.textfield.TextInputEditText
-
+            android:id="@+id/edit_profile_et_university"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"/>
@@ -199,36 +200,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:hint="Student Number"
+        android:hint="@string/student_id"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"
         app:startIconDrawable="@drawable/ic_face_detection">
 
         <com.google.android.material.textfield.TextInputEditText
-
+            android:id="@+id/edit_profile_et_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <TextView
+        android:id="@+id/edite_profile_alert_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/alert"
+        app:fontFamily="@font/raleway_medium" />
+
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnLogin"
+        android:id="@+id/edit_profile_btn_update"
         android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="58dp"
-        android:text="Update Profile"
+        android:text="@string/edit_dataupdate_btn"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/edit_profile_update_password"
+        android:id="@+id/edit_profile_btn_update_password"
         android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:backgroundTint="@color/white"
         android:textColor="@color/colorPrimary"
-        android:text="Update Password"
+        android:text="@string/edit_passwordupdate_btn"
         android:layout_marginRight="2dp"
         android:layout_marginLeft="2dp"/>
 

@@ -17,7 +17,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/raleway_semibold"
         android:paddingLeft="20dp"
-        android:text="Dashboard"
+        android:text="@string/dashboard_title"
         android:textSize="25dp">
 
     </TextView>
@@ -61,6 +61,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/dashboard_tv_user_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_semibold"
@@ -69,6 +70,7 @@
                     android:textSize="20dp" />
 
                 <TextView
+                    android:id="@+id/dashboard_tv_user_email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_medium"
@@ -76,12 +78,14 @@
                     android:textSize="12dp" />
 
                 <TextView
+                    android:id="@+id/dashboard_tv_user_contact"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_medium"
                     android:text="0715421423"
                     android:textSize="15dp" />
                 <TextView
+                    android:id="@+id/dashboard_tv_user_state"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_medium"
@@ -124,7 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_semibold"
-                    android:text="Programming"
+                    android:text="@string/dashboard_subtitle"
                     android:textColor="@color/colorPrimary"
                     android:textSize="20dp" />
 
@@ -137,9 +141,9 @@
                     android:paddingRight="20dp">
 
                     <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:orientation="vertical">
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"

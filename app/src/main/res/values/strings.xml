@@ -22,4 +22,72 @@
     </string-array>
 
 
+    <!-- TODO: Login Screen text -->
+    <string name="login_welcome">Welcome</string>
+    <string name="login_description">Sign in and Continue to E-Career</string>
+    <string name="email_place_holder">Email Address</string>
+    <string name="password_place_holder">Password</string>
+    <string name="submit_btn">Submit</string>
+    <string name="register_btn">Register</string>
+    <string name="forgotpass_btn">Forgot Password</string>
+    <string name="owner_credits">E-Career Private Limited \n \u00a9 All Rights Reserved</string>
+
+    <!-- TODO: Signup Screen text -->
+    <string name="signup_reg">Register</string>
+    <string name="signup_reg_dis">Sign up and Continue to E-Career</string>
+    <string name="signup_student">Student</string>
+    <string name="signup_industry">Industry</string>
+
+    <!-- TODO: Forgot Screen text -->
+    <string name="forget_title">Did someone forgot their password?</string>
+    <string name="forget_des">Just enter the email address you have used to register with us and we will send you a Verification Code!</string>
+    <string name="forgot_goback">Back to Login</string>
+
+
+    <!-- TODO: Industry Screen text -->
+    <string name="industry_email">Email</string>
+    <string name="industry_nic">NIC</string>
+    <string name="industry_phone">Phone</string>
+    <string name="industry_company">Company</string>
+    <string name="industry_password">Password</string>
+    <string name="industry_password_re">Confirm Password</string>
+
+    <!-- TODO: Student Screen text -->
+    <string name="student_univercity">University</string>
+    <string name="student_id">Student ID</string>
+
+    <!-- TODO: Edit Profile Screen text -->
+    <string name="edit_title">Edit Profile</string>
+    <string name="edit_dataupdate_btn">Update Profile</string>
+    <string name="edit_passwordupdate_btn">Update Password</string>
+
+    <!-- TODO: Account Screen text -->
+    <string name="account_title">Account Details</string>
+    <string name="account_btn_logout">Logout</string>
+
+    <!-- TODO: Verification Screen text -->
+    <string name="verification_title">When You Recived Verification Code?</string>
+    <string name="verification_des">Just enter the Verification Code and Submit and After That You can Reset Password !</string>
+
+    <!-- TODO: Qualification Screen text -->
+    <string name="qualification_edit_title">Edit Qualification</string>
+
+    <!-- TODO: Qualification Screen text -->
+    <string name="reset_title">Reset Your Password?</string>
+    <string name="reset_des">Please Enter New Password and Continue and \nafter that login to E-Career</string>
+    <string name="reset_btn">Reset Password</string>
+
+    <!-- TODO: Qualification Screen text -->
+    <string name="current_title">Did you need to reset Password?</string>
+    <string name="current_des">Just enter the current password you have used to register with us and if it will correct you change current password?</string>
+    <string name="current_text_box">Current Password</string>
+
+    <!-- TODO: Dashboard Screen text -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_subtitle">Programming</string>
+
+    <!-- TODO: Qualification Screen text -->
+    <string name="qualification_title">Add Qualification</string>
+    <string name="qualification_btn_next">Next</string>
+
 </resources>

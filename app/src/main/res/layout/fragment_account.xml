@@ -23,7 +23,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/raleway_semibold"
             android:paddingLeft="20dp"
-            android:text="Account Details"
+            android:text="@string/account_title"
             android:textSize="25dp">
 
         </TextView>
@@ -80,7 +80,7 @@
                 app:cardCornerRadius="40dp">
 
                 <ImageView
-                    android:id="@+id/profile_profile_image"
+                    android:id="@+id/account_profile_image"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:elevation="1dp"
@@ -109,7 +109,7 @@
                     android:layout_marginTop="50dp">
 
                     <TextView
-                        android:id="@+id/profile_username"
+                        android:id="@+id/account_tv_username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/raleway_semibold"
@@ -119,7 +119,7 @@
                         android:textSize="20dp"></TextView>
 
                     <TextView
-                        android:id="@+id/profile_user_type"
+                        android:id="@+id/account_tv_user_type"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/raleway_light"
@@ -205,9 +205,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="Email"></TextView>
+                                android:text="@string/industry_email"></TextView>
 
                             <TextView
+                                android:id="@+id/account_tv_email"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_medium"
@@ -276,9 +277,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="Phone"></TextView>
+                                android:text="@string/industry_phone"></TextView>
 
                             <TextView
+                                android:id="@+id/account_tv_contact"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_medium"
@@ -346,9 +348,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="NIC"></TextView>
+                                android:text="@string/industry_nic"></TextView>
 
                             <TextView
+                                android:id="@+id/account_tv_nic"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_medium"
@@ -416,9 +419,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="University"></TextView>
+                                android:text="@string/student_univercity"></TextView>
 
                             <TextView
+                                android:id="@+id/account_tv_university"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_medium"
@@ -486,9 +490,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="Student ID"></TextView>
+                                android:text="@string/student_id"></TextView>
 
                             <TextView
+                                android:id="@+id/account_tv_student_id"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_medium"
@@ -501,16 +506,10 @@
 
 
 
-
-
-
-
-
-
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/btnLogout"
+                    android:id="@+id/account_btn_Logout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -564,7 +563,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_semibold"
-                                android:text="Logout"
+                                android:text="@string/account_btn_logout"
                                 android:textColor="@color/white"></TextView>
 
                         </LinearLayout>

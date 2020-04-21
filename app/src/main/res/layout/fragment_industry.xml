@@ -22,11 +22,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:layout_marginTop="20dp"
-            android:hint="Email"
+            android:hint="@string/industry_email"
             app:startIconDrawable="@drawable/ic_envelope">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/username"
+                android:id="@+id/industry_et_email"
                 android:layout_width="match_parent"
                 android:inputType="textEmailAddress"
                 android:layout_height="wrap_content" />
@@ -36,16 +36,15 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:hint="NIC"
+            android:hint="@string/industry_nic"
             app:startIconDrawable="@drawable/ic_name_strock">
 
             <com.google.android.material.textfield.TextInputEditText
-
+                android:id="@+id/industry_et_nic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"/>
@@ -58,11 +57,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:hint="Phone"
+            android:hint="@string/industry_phone"
             app:startIconDrawable="@drawable/ic_call">
 
             <com.google.android.material.textfield.TextInputEditText
-
+                android:id="@+id/industry_et_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"/>
@@ -75,11 +74,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:hint="Company Name"
+            android:hint="@string/industry_company"
             app:startIconDrawable="@drawable/ic_company">
 
             <com.google.android.material.textfield.TextInputEditText
-
+                android:id="@+id/industry_et_company"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"/>
@@ -92,14 +91,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:hint="Password"
+            android:hint="@string/industry_password"
             app:startIconDrawable="@drawable/ic_lock"
 
 
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password"
+                android:id="@+id/industry_et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"/>
@@ -112,34 +111,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:hint="Password Confirm"
+            android:hint="@string/industry_password_re"
             app:startIconDrawable="@drawable/ic_lock"
-
-
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_confirm"
+                android:id="@+id/industry_et_re_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <TextView
+            android:id="@+id/industry_alert_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/alert"
+            app:fontFamily="@font/raleway_medium" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnLogin"
+            android:id="@+id/industry_btn_submit"
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:text="Submit"/>
+            android:text="@string/submit_btn"/>
 
         <TextView
-            android:id="@+id/btnForgotPassword"
+            android:id="@+id/industry_tv_goback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:paddingTop="12dp"
-            android:text="Back to Login"
+            android:text="@string/forgot_goback"
             android:textAlignment="center"
             android:layout_marginBottom="20dp"
             app:fontFamily="@font/raleway_medium" />

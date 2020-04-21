@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="When You Recived Verification Code?"
+            android:text="@string/verification_title"
             android:textSize="30dp"
             app:fontFamily="@font/raleway_semibold" />
 
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Just enter the Verification Code and Submit and After That You can Reset Password !"
+            android:text="@string/verification_des"
             app:fontFamily="@font/raleway_light" />
 
         <androidx.core.widget.NestedScrollView
@@ -93,7 +93,7 @@
                     android:layout_marginLeft="2dp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/username"
+                        android:id="@+id/verification_code"
                         android:gravity="center"
                         android:maxLength="6"
                         android:layout_width="match_parent"
@@ -102,24 +102,31 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-
+                <TextView
+                    android:id="@+id/verification_alert_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/alert"
+                    app:fontFamily="@font/raleway_medium" />
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnLogin"
+                    android:id="@+id/verification_btn_submit"
                     android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="58dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginLeft="2dp"
-                    android:text="Submit"/>
+                    android:text="@string/submit_btn"/>
 
                 <TextView
-                    android:id="@+id/btnForgotPassword"
+                    android:id="@+id/verification_goBack"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:paddingTop="12dp"
-                    android:text="Back to Login"
+                    android:text="@string/forgot_goback"
                     android:textAlignment="center"
                     app:fontFamily="@font/raleway_medium" />
 
@@ -157,7 +164,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/raleway_light"
             android:gravity="center"
-            android:text="E-Career Private Limited \n \u00a9 All Rights Reserved"
+            android:text="@string/owner_credits"
             android:textColor="@color/colorPrimary"></TextView>
 
     </LinearLayout>

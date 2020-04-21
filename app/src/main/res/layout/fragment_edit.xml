@@ -17,7 +17,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/raleway_semibold"
             android:paddingLeft="20dp"
-            android:text="Edit Qualification"
+            android:text="@string/qualification_edit_title"
             android:textSize="25dp">
 
         </TextView>

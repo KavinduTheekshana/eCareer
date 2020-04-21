@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Register"
+            android:text="@string/signup_reg"
             android:textColor="@color/gray"
             android:textSize="30dp"
             android:layout_marginTop="25dp"
@@ -66,7 +66,7 @@
             android:layout_gravity="center"
             android:paddingLeft="25dp"
             android:textColor="@color/gray"
-            android:text="Sign up and Continue to E-Career"
+            android:text="@string/signup_reg_dis"
             app:fontFamily="@font/raleway_light" />
 
         <LinearLayout
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/raleway_medium"
             android:paddingLeft="10dp"
-            android:text="Student"
+            android:text="@string/signup_student"
             android:textColor="@color/gray"
             android:textSize="25dp"></TextView>
     </LinearLayout>
@@ -169,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/raleway_medium"
                             android:paddingLeft="10dp"
-                            android:text="Industry"
+                            android:text="@string/signup_industry"
                             android:textColor="@color/gray"
                             android:textSize="25dp"></TextView>
                     </LinearLayout>
